@@ -7,6 +7,8 @@
     <!-- daisy ui cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/7627543d97.js" crossorigin="anonymous"></script>
     <!-- google fonts cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +20,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                iconColor: '#FFF082'
               }
             }
           }
@@ -32,7 +35,29 @@
 <body class="whole_font">
     <!-- header section design start -->
     <header>
-
+        <!-- hero section -->
+        <div class="hero  ">
+            <div class="hero-content flex-col lg:flex-row md:flex-row lg:gap-8 md:gap-5 items-center">
+              <div class="text-center lg:text-left md:text-left">
+                <h1 class="lg:text-7xl md:text-5xl text-5xl font-extrabold leading-snug">It's good <br>
+                    tea time at The <br> Tea House</h1>
+                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn btn-primary bg-gradient-to-r from-[#FF8938] to-[#F00] border-0">Explore More</button>
+              </div>
+              <div class="left_img relative">
+                <img src="./images/banner.png" class="z-0"/>
+                <div class=" bottom-0 flex items-center gap-3 p-5 rounded-md -mt-10 z-5 bg-white absolute lg:left-28 left-16 shadow-sm">
+                  <div>
+                    <i class="fa-solid fa-star text-3xl text-iconColor"></i>
+                  </div>
+                  <div class="txt_div">
+                    <h2 class="text-3xl font-extrabold">5.00</h2>
+                    <p class="text-[#9ca3af]">Trust Pilot Ratings</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </header>
     <!-- main section design start -->
     <main>
